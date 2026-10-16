@@ -60,6 +60,34 @@ class LogColorTests(unittest.TestCase):
             ui.draw(Screen())
             self.assertEqual(ui.logs[0], raw)
 
+    def test_subtitles_center_and_legend_stays_at_log_panel_bottom_right(self):
+        from xdebx.ui import width
+        with tempfile.TemporaryDirectory() as tmp:
+            ui = interface(Path(tmp))
+            ui.colors_enabled = True
+            ui.logs.extend('entry ' + str(i) for i in range(100))
+            for language in ('EN', 'CN'):
+                ui.ctx.settings['language'] = language
+                for rows, columns in ((12, 90), (24, 120), (20, 70)):
+                    ui.focus = 1 if columns < 90 else 0
+                    ui.page = 'settings'
+                    screen = Screen(rows, columns)
+                    ui.draw(screen)
+                    split = columns // 2
+                    title = next((y, x, text) for y, x, text, _ in screen.writes if text == ui.t('logs'))
+                    center_twice = split + columns if columns >= 90 else columns
+                    self.assertEqual(title[0], 2)
+                    self.assertLessEqual(abs(2 * title[1] + width(title[2]) - center_twice), 1)
+                    if columns >= 90:
+                        left = next((x, text) for y, x, text, _ in screen.writes if y == 2 and text == ui.t('settings'))
+                        self.assertLessEqual(abs(2 * left[0] + width(left[1]) - split), 1)
+                    legend = [(y, x, text) for y, x, text, _ in screen.writes
+                              if text in [ui.t('log_' + key) for key in ('success', 'warning', 'error', 'command')]]
+                    self.assertEqual(len(legend), 4)
+                    self.assertTrue(all(y == rows - 5 for y, _, _ in legend))
+                    self.assertEqual(legend[-1][1] + width(legend[-1][2]), columns - 3)
+                    self.assertTrue(all(y < rows - 5 for y, _, text, _ in screen.writes if text.startswith('entry ')))
+
     def test_log_panel_uses_colors_and_keeps_lite_and_monochrome_plain(self):
         with tempfile.TemporaryDirectory() as tmp:
             ui = interface(Path(tmp))

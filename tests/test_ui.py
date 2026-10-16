@@ -108,7 +108,7 @@ class InterfaceTests(unittest.TestCase):
                     frame = "\n".join("".join(row) for row in screen.cells)
                     self.assertIn("›", frame)
                     self.assertIn("‹", frame)
-                    foreground = [attr for _, _, text, attr in screen.writes if text.startswith("›")]
+                    foreground = [attr for _, _, text, attr in screen.writes if "›" in text]
                     self.assertTrue(foreground)
                     self.assertTrue(all(not (attr & curses.A_REVERSE) for attr in foreground))
                     self.assertIn("Q", "".join(screen.cells[-3]))

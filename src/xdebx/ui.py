@@ -124,6 +124,7 @@ class Interface:
         self.log_colors = {}
         self.colors_enabled = False
         self.selection_color = 0
+        self.home_button_color = 0
         self.frame_color = curses.A_DIM
         self.footer_color = self.accent_color = self.version_color = 0
         self.searching = False
@@ -293,8 +294,10 @@ class Interface:
         split = w // 2 if w >= 90 else w - 2
         show_logs = w >= 90 or self.focus == 1
         home_visible = self.page == "home"
-        if (w >= 90 or self.focus == 0) and not home_visible:
-            self.draw_text(screen, 2, 3, self.t(self.page), cyan | (0 if self.lite else curses.A_BOLD), split - 5)
+        subtitle_attr = 0 if self.lite else cyan | curses.A_BOLD
+        if w >= 90 or self.focus == 0:
+            subtitle = fit(self.t(self.page), split - 6)
+            self.draw_text(screen, 2, (split - width(subtitle)) // 2, subtitle, subtitle_attr, split - 6)
         if w >= 90 and not self.lite:
             for y in range(2, h - 4):
                 self.draw_text(screen, y, split, "│", self.frame_color)
@@ -303,14 +306,11 @@ class Interface:
         visible = h - 7
         start = max(0, self.index - visible // 2)
         if w >= 90 or self.focus == 0:
-            home_width = min(split - 8, max(20, width(self.t("home")), *(width(self.t(item)) + 8 for item in self.menu)))
-            home_x = max(3, (split - home_width) // 2)
+            home_width = split - 6
+            home_x = 3
             home_step = 1 if h < 13 else 2
             home_height = 3 + home_step * 2
             home_y = max(2, 2 + (h - 6 - home_height) // 2)
-            if home_visible:
-                title = fit(self.t("home"), home_width)
-                self.draw_text(screen, home_y, (split - width(title)) // 2, title, cyan | curses.A_BOLD, home_width)
             for row, item in enumerate(items[start:start + visible], 3):
                 actual = start + row - 3
                 active = actual == self.index
@@ -347,21 +347,38 @@ class Interface:
                     text = fit(text, span)
                     text += " " * max(0, span - width(text)) + "‹"
                 if home_visible:
-                    self.draw_text(screen, home_y + 2 + actual * home_step, home_x, text, attr, home_width)
+                    button_y = home_y + 2 + actual * home_step
+                    if not self.lite:
+                        if not active:
+                            attr = self.home_button_color
+                        label = fit("{}  {}".format(actual + 1, self.t(item)), home_width - 4)
+                        inner = home_width - 2
+                        padding = (inner - width(label)) // 2
+                        text = ("›" if active else " ") + " " * padding + label
+                        text += " " * (inner - padding - width(label)) + ("‹" if active else " ")
+                        self.draw_text(screen, button_y, home_x, text, attr, home_width)
+                    else:
+                        self.draw_text(screen, button_y, home_x, text, 0, home_width)
                 else:
                     self.draw_text(screen, row, 3, text, attr, split - 5)
         if show_logs:
             x = split + 2 if w >= 90 else 3
-            self.draw_text(screen, 2, x, self.t("logs"), cyan)
+            subtitle = fit(self.t("logs"), w - x - 2)
+            title_x = split + (w - split - width(subtitle)) // 2 if w >= 90 else (w - width(subtitle)) // 2
+            self.draw_text(screen, 2, title_x, subtitle, subtitle_attr)
             legend = [(name, self.t("log_" + name)) for name in ("success", "warning", "error", "command")]
-            legend_x = x + width(self.t("logs")) + 3
-            if self.colors_enabled and not self.lite and legend_x + sum(width(label) + 2 for _, label in legend) <= w - 2:
+            legend_width = sum(width(label) for _, label in legend) + 2 * (len(legend) - 1)
+            legend_x = w - 3 - legend_width
+            show_legend = self.colors_enabled and not self.lite and legend_x >= x
+            if show_legend:
+                self.draw_text(screen, h - 5, x, " " * (w - x - 2))
                 for severity, label in legend:
-                    self.draw_text(screen, 2, legend_x, label, self.log_attribute(severity))
+                    self.draw_text(screen, h - 5, legend_x, label, self.log_attribute(severity))
                     legend_x += width(label) + 2
+            log_visible = visible - 1 if show_legend else visible
             lines = list(self.logs)
             end = max(0, len(lines) - self.offset)
-            for row, line in enumerate(lines[max(0, end - visible):end], 3):
+            for row, line in enumerate(lines[max(0, end - log_visible):end], 3):
                 text = clean_log_line(line)
                 self.draw_text(screen, row, x, text, self.log_attribute(log_severity(text)), w - x - 2)
         bars = "".join("▁▂▃▄▅▆▇"[int((math.sin(time.monotonic() * 4 + i) + 1) * 3)] for i in range(9)) if not self.lite and self.music.playing() else ""
@@ -654,6 +671,11 @@ class Interface:
                 self.selection_color = curses.color_pair(17)
             else:
                 self.selection_color = self.colors[0]
+        if self.colors_enabled and curses.COLOR_PAIRS > 28:
+            # Opaque cards keep animated lettering and terminal wallpaper out of labels.
+            foreground, card_background = (252, 234) if curses.COLORS >= 256 else (curses.COLOR_WHITE, curses.COLOR_BLACK)
+            curses.init_pair(28, foreground, card_background)
+            self.home_button_color = curses.color_pair(28)
         self.words = read_json(PROJECT / "src/locales" / (self.ctx.settings["language"] + ".json"))
         if not self.lite:
             self.music.start()

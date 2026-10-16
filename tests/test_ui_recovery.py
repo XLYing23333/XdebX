@@ -24,13 +24,55 @@ class UIRecoveryTests(unittest.TestCase):
                     y,x,title=writes[0]
                     from xdebx.ui import width
                     self.assertLessEqual(abs(2*x+width(title)-split),1)
-                    self.assertLessEqual(abs((y+3)-(2+(rows-6)/2)),1)
+                    self.assertEqual(y, 2)
+                    left_attr = next(attr for _, _, text, attr in screen.writes if text == title)
+                    self.assertTrue(left_attr & curses.A_BOLD)
+                    if cols >= 90:
+                        right_y, _, _, right_attr = next(write for write in screen.writes if write[2] == ui.t('logs'))
+                        self.assertEqual(right_y, y)
+                        self.assertEqual(right_attr, left_attr)
                     body='\n'.join(''.join(row) for row in screen.cells)
                     for item in ui.menu:
                         buttons=[(y,text) for y,_,text,_ in screen.writes if ui.t(item) in text and str(ui.menu.index(item)+1) in text]
                         self.assertEqual(len(buttons),1)
                         self.assertLess(buttons[0][0],rows-4)
                     if cols>=90:self.assertTrue(any(ui.t('logs') in text for _,_,text,_ in screen.writes))
+
+    def test_home_single_line_buttons_mask_backdrop_and_keep_equal_widths(self):
+        from xdebx.ui import width
+        with tempfile.TemporaryDirectory() as tmp:
+            ui = interface(Path(tmp))
+            ui.home_button_color, ui.selection_color = 256, 512
+            ui.background.draw = lambda screen: [screen.addstr(y, 1, "#" * (screen.columns - 2), curses.A_DIM)
+                                                 for y in range(2, screen.rows - 4)]
+            for language in ('EN', 'CN'):
+                ui.ctx.settings['language'] = language
+                for rows, columns in ((20, 120), (32, 100), (24, 38)):
+                    for selected in range(3):
+                        ui.index = selected
+                        screen = Screen(rows, columns)
+                        ui.draw(screen)
+                        buttons = [(y, x, text, attr) for y, x, text, attr in screen.writes
+                                   if any(ui.t(item) in text for item in ui.menu)]
+                        self.assertEqual(len(buttons), 3)
+                        self.assertEqual(len({width(text) for _, _, text, _ in buttons}), 1)
+                        self.assertFalse(any(text.startswith(('┌', '└')) for _, _, text, _ in screen.writes))
+                        for index, (y, x, text, attr) in enumerate(buttons):
+                            self.assertLess(y, rows - 4)
+                            split = columns // 2 if columns >= 90 else columns - 2
+                            self.assertEqual(x, 3)
+                            self.assertEqual(width(text), split - 6)
+                            label = "{}  {}".format(index + 1, ui.t(ui.menu[index]))
+                            before = text[:text.index(label)]
+                            self.assertLessEqual(abs(2 * (x + width(before)) + width(label) - split), 1)
+                            self.assertEqual(attr, (ui.selection_color | curses.A_BOLD) if index == selected else ui.home_button_color)
+                            self.assertNotIn('#', text)
+                            cursor = x
+                            for char in text:
+                                self.assertEqual(screen.cells[y][cursor], char)
+                                cursor += width(char)
+                            if index:
+                                self.assertEqual(y - buttons[index - 1][0], 2)
 
     def test_list_can_select_partial_but_not_installed(self):
         with tempfile.TemporaryDirectory() as tmp:
