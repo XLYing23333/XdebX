@@ -1,0 +1,44 @@
+[
+  {
+    "suite": "focal",
+    "component": "main",
+    "index_url": "https://archive.ubuntu.com/ubuntu/dists/focal/main/binary-amd64/Packages.xz",
+    "sha256": "7757921ff8feed9c3934a0c9936d441ba4a238bee3ea6c8c1df5cbcd43fc9861",
+    "inrelease_signature_verified": true
+  },
+  {
+    "suite": "focal",
+    "component": "universe",
+    "index_url": "https://archive.ubuntu.com/ubuntu/dists/focal/universe/binary-amd64/Packages.xz",
+    "sha256": "46a746dac789bd9537aca54db1680b9dff51c248153111350382199d7d96b9d1",
+    "inrelease_signature_verified": true
+  },
+  {
+    "suite": "focal-updates",
+    "component": "main",
+    "index_url": "https://archive.ubuntu.com/ubuntu/dists/focal-updates/main/binary-amd64/Packages.xz",
+    "sha256": "14dd9c435e0d8c2eee390396babb01f7438d0d37cae09e029b6d1485ddc5a54d",
+    "inrelease_signature_verified": true
+  },
+  {
+    "suite": "noble",
+    "component": "main",
+    "index_url": "https://archive.ubuntu.com/ubuntu/dists/noble/main/binary-amd64/Packages.xz",
+    "sha256": "2a6a199e1031a5c279cb346646d594993f35b1c03dd4a82aaa0323980dd92451",
+    "inrelease_signature_verified": true
+  },
+  {
+    "suite": "noble",
+    "component": "universe",
+    "index_url": "https://archive.ubuntu.com/ubuntu/dists/noble/universe/binary-amd64/Packages.xz",
+    "sha256": "ba9057fa1b91438cc8a1d26808d00c85389fe101d0c1496254df97236405599a",
+    "inrelease_signature_verified": true
+  },
+  {
+    "suite": "noble-updates",
+    "component": "main",
+    "index_url": "https://archive.ubuntu.com/ubuntu/dists/noble-updates/main/binary-amd64/Packages.xz",
+    "sha256": "610b5ea3c37df19cbd666da4db2ae7a5a4adb5f3e0dc87ae975e55579818fa94",
+    "inrelease_signature_verified": true
+  }
+]

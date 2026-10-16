@@ -1,0 +1,151 @@
+{
+  "validated_at": "2026-10-03",
+  "checks": [
+    "All artifact SHA-256 sums",
+    "Published upstream SHA-256 or npm SHA-512 SRI where available",
+    "deb control architecture + complete data archive readability",
+    "ZIP CRC + tar readability",
+    "Shell syntax via bash -n; scripts not executed",
+    "Selected ELF machine/interpreter/glibc requirements",
+    "Required OMZ jispwoso theme and uv plugin present"
+  ],
+  "elf_audit": [
+    {
+      "filename": "ghostty/ghostty_1.1.3-0.ppa2_amd64_22.04.deb",
+      "binary": "ghostty",
+      "maximum_required_glibc": "2.34",
+      "interpreter": "[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "ghostty/ghostty_1.1.3-0.ppa2_amd64_bookworm.deb",
+      "binary": "ghostty",
+      "maximum_required_glibc": "2.34",
+      "interpreter": "[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "ghostty/ghostty_1.3.1-0.ppa2_amd64_24.04.deb",
+      "binary": "ghostty",
+      "maximum_required_glibc": "2.38",
+      "interpreter": "[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "ghostty/ghostty_1.3.1-0.ppa2_amd64_trixie.deb",
+      "binary": "ghostty",
+      "maximum_required_glibc": "2.38",
+      "interpreter": "[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "portable/btop-1.4.7-x86_64-linux-musl.tar.gz",
+      "binary": "btop-1.4.7-x86_64-linux-musl.tar-btop",
+      "maximum_required_glibc": null,
+      "interpreter": null,
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "portable/fastfetch-2.69.0-musl-amd64.tar.gz",
+      "binary": "fastfetch-2.69.0-musl-amd64.tar-fastfetch",
+      "maximum_required_glibc": null,
+      "interpreter": "[Requesting program interpreter: /lib/ld-musl-x86_64.so.1]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "portable/fastfetch-2.69.0-musl-amd64.tar.gz",
+      "binary": "fastfetch-2.69.0-musl-amd64.tar-fastfetch",
+      "maximum_required_glibc": null,
+      "interpreter": "[Requesting program interpreter: /lib/ld-musl-x86_64.so.1]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "portable/node-v22.23.3-linux-x64.tar.xz",
+      "binary": "node-v22.23.3-linux-x64.tar-node",
+      "maximum_required_glibc": "2.28",
+      "interpreter": "[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "portable/uv-0.12.22-x86_64-linux-musl.tar.gz",
+      "binary": "uv-0.12.22-x86_64-linux-musl.tar-uv",
+      "maximum_required_glibc": null,
+      "interpreter": null,
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "portable/uv-0.12.22-x86_64-linux-musl.tar.gz",
+      "binary": "uv-0.12.22-x86_64-linux-musl.tar-uvx",
+      "maximum_required_glibc": null,
+      "interpreter": null,
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "upstream/fastfetch-2.69.0-linux-amd64-polyfilled.deb",
+      "binary": "fastfetch",
+      "maximum_required_glibc": "2.17",
+      "interpreter": "[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "upstream/fastfetch-2.69.0-linux-amd64.deb",
+      "binary": "fastfetch",
+      "maximum_required_glibc": "2.34",
+      "interpreter": "[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "upstream/lsd-musl_1.2.0_amd64.deb",
+      "binary": "lsd",
+      "maximum_required_glibc": null,
+      "interpreter": null,
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "upstream/lsd_1.2.0_amd64.deb",
+      "binary": "lsd",
+      "maximum_required_glibc": "2.18",
+      "interpreter": "[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]",
+      "machine": "Machine:                           Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "portable/gdu-5.37.0-linux-amd64-static.tgz",
+      "binary": "gdu_linux_amd64_static",
+      "maximum_required_glibc": null,
+      "interpreter": null,
+      "machine": "Advanced Micro Devices X86-64"
+    },
+    {
+      "filename": "portable/node-v24.21.0-linux-x64.tar.xz",
+      "binary": "node",
+      "maximum_required_glibc": "2.28",
+      "interpreter": "[Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]",
+      "machine": "Advanced Micro Devices X86-64"
+    }
+  ],
+  "limitations": [
+    "No installation tests on the five target distributions",
+    "Cached deb dependencies not bundled",
+    "Snapshots without published digest have only local integrity hashes",
+    "Existing CTypora provenance unknown",
+    "QQ current official link HEAD probe returned 403"
+  ],
+  "latest_update": {
+    "date": "2026-10-03",
+    "local_fonts_verified": [
+      "data/fonts/MapleMono-NF-Bold.ttf",
+      "data/fonts/MapleMono-NF-Italic.ttf",
+      "data/fonts/MapleMono-NF-Light.ttf",
+      "data/fonts/MapleMono-NF-Regular.ttf"
+    ],
+    "fontconfig_families": "Maple Mono NF (Regular/Italic/Bold/Light)",
+    "fastinstall_count": 25,
+    "vimrc_missing_plugins_check": "Vim 9.1 -Nu NONE -i NONE -n -es sourced supplied vimrc; exit 0",
+    "vim9_source": {
+      "filename": "sources/vim-v9.2.0000.tar.gz",
+      "sha256": "875875fb5988af3db0726bef9b048a559a9563aa0ecca8240e82057e8e5941c3",
+      "archive_members": 7748
+    },
+    "font_archive_unused": true
+  }
+}

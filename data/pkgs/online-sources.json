@@ -1,0 +1,257 @@
+{
+  "researched_at": "2026-10-03",
+  "architecture": "amd64",
+  "sources": [
+    {
+      "id": "miniconda3",
+      "version": "Miniconda3-latest-Linux-x86_64.sh",
+      "url": "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh",
+      "size_bytes": 197973354,
+      "sha256": "e8b25b92b262499141c5bd57a98d3c008024185fa951494b9cd9b6d94e72338b",
+      "status": "download-on-install",
+      "checksum_source": "Official Anaconda installer directory table",
+      "selection": "current"
+    },
+    {
+      "id": "miniconda3",
+      "version": "Miniconda3-py311_24.11.1-0-Linux-x86_64.sh",
+      "url": "https://repo.anaconda.com/miniconda/Miniconda3-py311_24.11.1-0-Linux-x86_64.sh",
+      "size_bytes": null,
+      "sha256": "807774bae6cd87132094458217ebf713df436f64779faf9bb4c3d4b6615c1e3a",
+      "status": "download-on-install",
+      "checksum_source": "Official Anaconda installer directory table",
+      "selection": "older Python 3.11 compatibility candidate; validate on target"
+    },
+    {
+      "id": "chrome",
+      "version": "154.0.8037.97-1",
+      "url": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_154.0.8037.97-1_amd64.deb",
+      "size_bytes": 142172388,
+      "sha256": "a4edbe95e9b01db6c9b97d7a1323121eda18362b5620df06abac1b59bee80053",
+      "status": "download-on-install",
+      "depends": "ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.11.90), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.25), libcairo2 (>= 1.14.0), libcups2 (>= 1.7.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.35), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2)",
+      "checksum_source": "Official vendor APT package index (HTTPS fetched; signature not audited)",
+      "targets": [
+        "ubuntu20",
+        "ubuntu22",
+        "ubuntu24",
+        "debian12",
+        "debian13"
+      ],
+      "compatibility": "Package metadata and vendor requirements; not installed on five targets"
+    },
+    {
+      "id": "vscode",
+      "version": "1.140.0",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/07f806f999227108933c2e30515b26eecc1fda74/code_1.140.0-1790759618_amd64.deb",
+      "size_bytes": null,
+      "sha256": "e5ddfa528d68ce907c92cba18ed4edd7420874fe828cbaaf8e4484aa33530c3b",
+      "status": "download-on-install",
+      "metadata_url": "https://update.code.visualstudio.com/api/update/linux-deb-x64/stable/latest",
+      "checksum_source": "Microsoft official update API",
+      "targets": [
+        "ubuntu20",
+        "ubuntu22",
+        "ubuntu24",
+        "debian12",
+        "debian13"
+      ],
+      "minimum_glibc": "2.28"
+    },
+    {
+      "id": "chatgpt",
+      "version": "linux-preview-latest",
+      "url": "https://persistent.oaistatic.com/codex-app-prod/linux/deb/latest/chatgpt_amd64.deb",
+      "size_bytes": 475227490,
+      "sha256": null,
+      "status": "download-on-install",
+      "targets": [
+        "ubuntu24",
+        "debian13"
+      ],
+      "availability": "Official Linux preview; other requested OS releases not officially supported"
+    },
+    {
+      "id": "wechat",
+      "version": "official-linux-current",
+      "url": "https://dldir1v6.qq.com/weixin/Universal/Linux/WeChatLinux_x86_64.deb",
+      "size_bytes": 231359624,
+      "sha256": null,
+      "status": "download-on-install",
+      "metadata_url": "https://linux.weixin.qq.com/",
+      "compatibility": "Depends/ELF still to check at install time",
+      "targets": [
+        "ubuntu22",
+        "ubuntu24",
+        "debian12",
+        "debian13"
+      ],
+      "excluded_targets": {
+        "ubuntu20": "Excluded at user request; actual startup failures retained in local acceptance history"
+      }
+    },
+    {
+      "id": "qq",
+      "version": "3.2.34",
+      "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/9.9.36/release/9ee04bef/QQ_3.2.34_260924_amd64_01.deb",
+      "size_bytes": null,
+      "sha256": null,
+      "status": "download-on-install",
+      "metadata_url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/linuxConfig.js",
+      "published_at": "2026-09-24",
+      "head_probe": "403 from this network; official link resolved, payload not verified"
+    },
+    {
+      "id": "nomachine-personal-edition",
+      "version": "10.1.7_1",
+      "url": "https://web9001.nomachine.com/download/10.1/Linux/nomachine-personal-edition_10.1.7_1_amd64.deb",
+      "size_bytes": null,
+      "sha256": null,
+      "status": "download-on-install",
+      "license": "Commercial v10 Personal Edition; 14-day evaluation; not free edition",
+      "metadata_url": "https://download.nomachine.com/download/?id=43&platform=linux"
+    },
+    {
+      "id": "clash-verge-rev",
+      "version": "v2.5.7",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.7/Clash.Verge_2.5.7_amd64.deb",
+      "size_bytes": 102974898,
+      "sha256": "0a869eac1f065fcdc3e55a3968010361fd1500d8c38a501fb9c9b1468b458b9e",
+      "status": "download-on-install",
+      "selection": "current",
+      "compatibility": "Requires modern WebKitGTK; do not install on focal without dependency check"
+    },
+    {
+      "id": "clash-verge-rev",
+      "version": "v1.7.7",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.7.7/clash-verge_1.7.7_amd64.deb",
+      "size_bytes": 43269668,
+      "sha256": null,
+      "status": "download-on-install",
+      "selection": "older focal compatibility candidate; not tested"
+    },
+    {
+      "id": "goland",
+      "version": "2026.2.3",
+      "url": "https://download.jetbrains.com/go/goland-2026.2.3.tar.gz",
+      "size_bytes": 1243917774,
+      "sha256": null,
+      "status": "download-on-install",
+      "checksum_url": "https://download.jetbrains.com/go/goland-2026.2.3.tar.gz.sha256",
+      "targets": [
+        "ubuntu24",
+        "debian13"
+      ],
+      "compatibility": "Current officially listed target distributions; older systems require an older supported release"
+    },
+    {
+      "id": "go",
+      "version": "go1.27.1",
+      "url": "https://go.dev/dl/go1.27.1.linux-amd64.tar.gz",
+      "size_bytes": 70553950,
+      "sha256": "63d339f0da5ab53635a56f2490a7984dfe12dfcff22ad749f63edaf590168445",
+      "status": "download-on-install",
+      "install_path": "/opt/go; GOPATH=/opt/gopath",
+      "metadata_url": "https://go.dev/dl/?mode=json"
+    },
+    {
+      "id": "jdk-temurin21",
+      "version": "21.0.12.1+1-LTS",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_linux_hotspot_21.0.12.1_1.tar.gz",
+      "size_bytes": 207473347,
+      "sha256": "ce79869e1307ed8ee1e2baa86a412b1eb5b75d10a01006d788a6f968bcfaee94",
+      "status": "download-on-install",
+      "checksum_url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_linux_hotspot_21.0.12.1_1.tar.gz.sha256.txt",
+      "selection": "JDK version not specified in TODO; LTS 21 candidate"
+    },
+    {
+      "id": "spark-store",
+      "version": "5.3.1",
+      "url": "https://gitee.com/spark-store-project/spark-store/releases/download/5.3.1/spark-store_5.3.1_amd64.deb",
+      "size_bytes": null,
+      "sha256": null,
+      "status": "download-on-install",
+      "metadata_url": "https://gitee.com/spark-store-project/spark-store/releases/",
+      "compatibility": "Ubuntu 20 needs supplementary dependencies; payload not independently fetched"
+    },
+    {
+      "id": "@anthropic-ai/claude-code",
+      "version": "2.1.288",
+      "url": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.288.tgz",
+      "size_bytes": null,
+      "sha256": null,
+      "status": "download-on-install",
+      "engines": {
+        "node": ">=22.0.0"
+      },
+      "integrity": "sha512-tnc8XuK5xQkyE6oowhhSPIjLuNc0S3MkjIHqycDsKP6yJlLtIjMt6v1TOkYLUiumcZ9jOgJZ6h9Vn3/f0murdQ==",
+      "optional_dependencies": {
+        "@anthropic-ai/claude-code-linux-x64": "2.1.288",
+        "@anthropic-ai/claude-code-win32-x64": "2.1.288",
+        "@anthropic-ai/claude-code-darwin-x64": "2.1.288",
+        "@anthropic-ai/claude-code-linux-arm64": "2.1.288",
+        "@anthropic-ai/claude-code-win32-arm64": "2.1.288",
+        "@anthropic-ai/claude-code-darwin-arm64": "2.1.288",
+        "@anthropic-ai/claude-code-linux-x64-musl": "2.1.288",
+        "@anthropic-ai/claude-code-linux-arm64-musl": "2.1.288"
+      },
+      "unpacked_size_bytes": 187180,
+      "notes": "Install via npm; cached entry tarballs for Claude/OpenCode require separately downloaded platform binaries; OpenClaw complete dependency tree is not bundled"
+    },
+    {
+      "id": "opencode-ai",
+      "version": "1.18.34",
+      "url": "https://registry.npmjs.org/opencode-ai/-/opencode-ai-1.18.34.tgz",
+      "size_bytes": null,
+      "sha256": null,
+      "status": "download-on-install",
+      "engines": null,
+      "integrity": "sha512-9WUS2T0t4HHDVzXvuwTHF0nvhXvZ9mQ0r+ozCvKdJu0LVoQpOzqAW4qWTC3ygNc5Oedcc7j+Oct24JYlQYnySA==",
+      "optional_dependencies": {
+        "opencode-linux-x64": "1.18.34",
+        "opencode-darwin-x64": "1.18.34",
+        "opencode-linux-arm64": "1.18.34",
+        "opencode-windows-x64": "1.18.34",
+        "opencode-darwin-arm64": "1.18.34",
+        "opencode-windows-arm64": "1.18.34",
+        "opencode-linux-x64-musl": "1.18.34",
+        "opencode-linux-arm64-musl": "1.18.34",
+        "opencode-linux-x64-baseline": "1.18.34",
+        "opencode-darwin-x64-baseline": "1.18.34",
+        "opencode-windows-x64-baseline": "1.18.34",
+        "opencode-linux-x64-baseline-musl": "1.18.34"
+      },
+      "unpacked_size_bytes": 7865,
+      "notes": "Install via npm; cached entry tarballs for Claude/OpenCode require separately downloaded platform binaries; OpenClaw complete dependency tree is not bundled"
+    },
+    {
+      "id": "openclaw",
+      "version": "2026.9.7",
+      "url": "https://registry.npmjs.org/openclaw/-/openclaw-2026.9.7.tgz",
+      "size_bytes": null,
+      "sha256": null,
+      "status": "download-on-install",
+      "engines": {
+        "node": ">=24.16.0 <25 || >=26.1.0"
+      },
+      "integrity": "sha512-/8N2LnfTFQPvnZizi8qKSFfnLQaPvSG3Cb4xo1YV7b4JhYiUc43ZNRpXJ01bWghLK0Ezk3HVeo/DGHcIRQwRWA==",
+      "optional_dependencies": {
+        "sqlite-vec": "0.1.9"
+      },
+      "unpacked_size_bytes": 388950288,
+      "notes": "Install via npm; cached entry tarballs for Claude/OpenCode require separately downloaded platform binaries; OpenClaw complete dependency tree is not bundled"
+    },
+    {
+      "id": "clashterminalx",
+      "version": "c7a1b878aac275e767dbd54c79506689d623636d",
+      "url": "https://github.com/XLYing23333/ClashTerminalX.git",
+      "size_bytes": null,
+      "sha256": null,
+      "status": "git-clone-on-install",
+      "git_archive_url": "https://codeload.github.com/XLYing23333/ClashTerminalX/tar.gz/c7a1b878aac275e767dbd54c79506689d623636d",
+      "requires_python": ">=3.11",
+      "provenance": "User confirmed upstream",
+      "notes": "No GitHub Releases. Full repo includes Mihomo/geodata; cached installer alone does not install application"
+    }
+  ]
+}

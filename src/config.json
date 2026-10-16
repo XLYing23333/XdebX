@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "supported_architecture": "amd64",
+  "defaults": {
+    "language": "EN",
+    "mirror": "Raw",
+    "music": true
+  },
+  "fast_install": {
+    "source": "development/TODO.md $ suffix",
+    "items": [
+      "btop",
+      "chafa",
+      "claude-code",
+      "curl",
+      "docker",
+      "fastfetch",
+      "gdu",
+      "gedit",
+      "ghostty",
+      "git",
+      "google-chrome",
+      "htop",
+      "lsd",
+      "maple-mono-nf",
+      "nodejs22-nvm",
+      "rsync",
+      "snipaste",
+      "spark-store",
+      "tmux-tmuxp",
+      "uv",
+      "vim9",
+      "visual-studio-code",
+      "vlc",
+      "wget",
+      "zsh-omz"
+    ],
+    "desktop_only": [
+      "gedit",
+      "ghostty",
+      "google-chrome",
+      "snipaste",
+      "spark-store",
+      "visual-studio-code",
+      "vlc"
+    ],
+    "skip_installed": true
+  },
+  "fonts": {
+    "source": "local-only",
+    "files": [
+      "data/fonts/MapleMono-NF-Bold.ttf",
+      "data/fonts/MapleMono-NF-Italic.ttf",
+      "data/fonts/MapleMono-NF-Light.ttf",
+      "data/fonts/MapleMono-NF-Regular.ttf"
+    ],
+    "destination": "~/.local/share/fonts/MapleMono-NF",
+    "refresh_command": [
+      "fc-cache",
+      "-f"
+    ]
+  },
+  "vim": {
+    "id": "vim9",
+    "aliases": [
+      "vim",
+      "VIM9"
+    ],
+    "minimum_major_version": 9,
+    "config_source": "data/confs/.vimrc",
+    "config_destination": "~/.vimrc",
+    "plugin_manager": "data/pkgs/plugins/plug.vim",
+    "fallback_source": "data/pkgs/sources/vim-v9.2.0000.tar.gz",
+    "fallback_prefix": "~/.local",
+    "apt_package": "vim",
+    "version_probe": [
+      "vim",
+      "--version"
+    ],
+    "existing_below_minimum": "upgrade-required",
+    "headless_supported": true
+  }
+}

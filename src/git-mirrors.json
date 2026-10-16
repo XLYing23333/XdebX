@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "resources": {
+    "ohmyzsh": {
+      "upstream": "https://github.com/ohmyzsh/ohmyzsh.git",
+      "version": "4d4cfc287e9d887b81242c0e431b5f49f9cec5c1",
+      "member": "oh-my-zsh.sh",
+      "sha256": "c2cf03254924309b0bd6366346f4edbb957dc036ec7cb5205d81a810a769c865",
+      "urls": [
+        "https://gitee.com/mirrors/oh-my-zsh.git"
+      ],
+      "verified_at": "2026-10-11T20:58:28.714015+00:00",
+      "evidence": "docs/beijing-gitee-probe.json"
+    },
+    "nerdtree": {
+      "upstream": "https://github.com/scrooloose/nerdtree.git",
+      "version": "690d061b591525890f1471c6675bcb5bdc8cdff9",
+      "member": "plugin/NERD_tree.vim",
+      "sha256": "e91f0fa267592ff31edd18ccd397d4654bfaaf40ae27450eded22b0dd56f8e23",
+      "urls": [
+        "https://gitee.com/mirrors/nerdtree.git"
+      ],
+      "verified_at": "2026-10-11T20:58:28.714015+00:00",
+      "evidence": "docs/beijing-gitee-probe.json"
+    },
+    "zsh-autosuggestions": {
+      "upstream": "https://github.com/zsh-users/zsh-autosuggestions.git",
+      "version": "85919cd1ffa7d2d5412f6d3fe437ebdbeeec4fc5",
+      "member": "zsh-autosuggestions.zsh",
+      "sha256": "eec7ba8f7a71414ace0ea0fab0908d005b24cf65d83b169c0ff97815d3cfc51a",
+      "urls": [
+        "https://gitee.com/mirrors/zsh-autosuggestions.git"
+      ],
+      "verified_at": "2026-10-11T20:58:28.714015+00:00",
+      "evidence": "docs/beijing-gitee-probe.json"
+    },
+    "zsh-syntax-highlighting": {
+      "upstream": "https://github.com/zsh-users/zsh-syntax-highlighting.git",
+      "version": "0bfcb582e71d3abe604ce67bc0fe5a21f377507e",
+      "member": "zsh-syntax-highlighting.zsh",
+      "sha256": "156ebe9530eb991dcef54d476967e2ff4338d35dabaaff9e5462673a287cc63b",
+      "urls": [
+        "https://gitee.com/mirrors/zsh-syntax-highlighting.git"
+      ],
+      "verified_at": "2026-10-11T20:58:28.714015+00:00",
+      "evidence": "docs/beijing-gitee-probe.json"
+    }
+  }
+}

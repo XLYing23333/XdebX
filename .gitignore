@@ -1,0 +1,32 @@
+# USER
+development
+
+# Agent
+AGENTS.md
+.agent/
+.codex/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+test-results/
+data/fonts/*.ttf
+data/music/*
+data/pkgs/*
+!data/pkgs/README.md
+!data/pkgs/manifest.json
+!data/pkgs/online-sources.json
+!data/pkgs/SHA256SUMS
+!data/pkgs/validation.json
+!data/pkgs/compatibility.json
+!data/pkgs/provenance/
+/docs/
+/docker/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

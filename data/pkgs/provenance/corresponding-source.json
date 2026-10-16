@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "packages": {
+    "ubuntu20/vim_8.1.2269-1ubuntu5.32_amd64.deb": {
+      "source": "vim",
+      "version": "2:8.1.2269-1ubuntu5.32",
+      "files": [
+        {
+          "filename": "corresponding-source/vim/8.1.2269-1ubuntu5.32/vim_8.1.2269-1ubuntu5.32.dsc",
+          "sha256": "0507b963b762ad598de958c40626a28bd60e5b11da159bc5877cec15a2c28245",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_8.1.2269-1ubuntu5.32.dsc"
+        },
+        {
+          "filename": "corresponding-source/vim/8.1.2269-1ubuntu5.32/vim_8.1.2269.orig.tar.gz",
+          "sha256": "ff75a4d5f04dbd0e10c00b8a2369bd4108ed955a298fa30c4d861d2f53d2c4c5",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_8.1.2269.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/vim/8.1.2269-1ubuntu5.32/vim_8.1.2269-1ubuntu5.32.debian.tar.xz",
+          "sha256": "f0f35183778495598e886e16d9efe7e772eb10b10e2699a45d46dece593dbf71",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_8.1.2269-1ubuntu5.32.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu20/vim-runtime_8.1.2269-1ubuntu5.32_all.deb": {
+      "source": "vim",
+      "version": "2:8.1.2269-1ubuntu5.32",
+      "files": [
+        {
+          "filename": "corresponding-source/vim/8.1.2269-1ubuntu5.32/vim_8.1.2269-1ubuntu5.32.dsc",
+          "sha256": "0507b963b762ad598de958c40626a28bd60e5b11da159bc5877cec15a2c28245",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_8.1.2269-1ubuntu5.32.dsc"
+        },
+        {
+          "filename": "corresponding-source/vim/8.1.2269-1ubuntu5.32/vim_8.1.2269.orig.tar.gz",
+          "sha256": "ff75a4d5f04dbd0e10c00b8a2369bd4108ed955a298fa30c4d861d2f53d2c4c5",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_8.1.2269.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/vim/8.1.2269-1ubuntu5.32/vim_8.1.2269-1ubuntu5.32.debian.tar.xz",
+          "sha256": "f0f35183778495598e886e16d9efe7e772eb10b10e2699a45d46dece593dbf71",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_8.1.2269-1ubuntu5.32.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/chafa_1.14.0-1.1build1_amd64.deb": {
+      "source": "chafa",
+      "version": "1.14.0-1.1build1",
+      "files": [
+        {
+          "filename": "corresponding-source/chafa/1.14.0-1.1build1/chafa_1.14.0-1.1build1.dsc",
+          "sha256": "3f7632a30361a3f00d07f67003fc7294328aefd7e3fa2d87e556b646a2f4a430",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/universe/c/chafa/chafa_1.14.0-1.1build1.dsc"
+        },
+        {
+          "filename": "corresponding-source/chafa/1.14.0-1.1build1/chafa_1.14.0.orig.tar.gz",
+          "sha256": "faefc09807c955c882fa044947fc939952862f6e8d2e242262dbcc9f97e108ef",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/universe/c/chafa/chafa_1.14.0.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/chafa/1.14.0-1.1build1/chafa_1.14.0-1.1build1.debian.tar.xz",
+          "sha256": "49ec7e23fbdcc90df1a1033972a72e67cb30d15aa4f0a9336e3bc8e414c601f0",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/universe/c/chafa/chafa_1.14.0-1.1build1.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/curl_8.5.0-2ubuntu10.15_amd64.deb": {
+      "source": "curl",
+      "version": "8.5.0-2ubuntu10.15",
+      "files": [
+        {
+          "filename": "corresponding-source/curl/8.5.0-2ubuntu10.15/curl_8.5.0-2ubuntu10.15.dsc",
+          "sha256": "b31986d2e7980472203df2a39c5ed98db783216b09393aaac0c85d092be33632",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.15.dsc"
+        },
+        {
+          "filename": "corresponding-source/curl/8.5.0-2ubuntu10.15/curl_8.5.0.orig.tar.gz",
+          "sha256": "05fc17ff25b793a437a0906e0484b82172a9f4de02be5ed447e0cab8c3475add",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_8.5.0.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/curl/8.5.0-2ubuntu10.15/curl_8.5.0-2ubuntu10.15.debian.tar.xz",
+          "sha256": "c823e1dbb3edea4b9a8d0042ac6be01469d1bbc06a4c04228f533b985bfabd72",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.15.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/gedit_46.2-2_amd64.deb": {
+      "source": "gedit",
+      "version": "46.2-2",
+      "files": [
+        {
+          "filename": "corresponding-source/gedit/46.2-2/gedit_46.2-2.dsc",
+          "sha256": "a95d8af76e5c85dbbdd13aef38fdd2a5cd8b42b8e8ba6c72df7bfbcdba46dc73",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/universe/g/gedit/gedit_46.2-2.dsc"
+        },
+        {
+          "filename": "corresponding-source/gedit/46.2-2/gedit_46.2.orig.tar.xz",
+          "sha256": "c0866412bad147ebace2d282ffcbb5a0e9a304b20fd55640bee21c81e6d501ef",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/universe/g/gedit/gedit_46.2.orig.tar.xz"
+        },
+        {
+          "filename": "corresponding-source/gedit/46.2-2/gedit_46.2-2.debian.tar.xz",
+          "sha256": "8bc31ba597da8c559df60645cf7d38c672df180d546f37f677437699fd86d5f6",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/universe/g/gedit/gedit_46.2-2.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/git_2.43.0-1ubuntu7.3_amd64.deb": {
+      "source": "git",
+      "version": "1:2.43.0-1ubuntu7.3",
+      "files": [
+        {
+          "filename": "corresponding-source/git/2.43.0-1ubuntu7.3/git_2.43.0-1ubuntu7.3.dsc",
+          "sha256": "1e3e5b83bf41318cc957a9e471ed82f8ca4d6befe91b008699959072c97430f4",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.43.0-1ubuntu7.3.dsc"
+        },
+        {
+          "filename": "corresponding-source/git/2.43.0-1ubuntu7.3/git_2.43.0.orig.tar.xz",
+          "sha256": "5446603e73d911781d259e565750dcd277a42836c8e392cac91cf137aa9b76ec",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.43.0.orig.tar.xz"
+        },
+        {
+          "filename": "corresponding-source/git/2.43.0-1ubuntu7.3/git_2.43.0-1ubuntu7.3.debian.tar.xz",
+          "sha256": "5bb363b59fda93816ec9ef34476e720b4f66f4b9947866bfaf414964be7dd4a7",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.43.0-1ubuntu7.3.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/git-man_2.43.0-1ubuntu7.3_all.deb": {
+      "source": "git",
+      "version": "1:2.43.0-1ubuntu7.3",
+      "files": [
+        {
+          "filename": "corresponding-source/git/2.43.0-1ubuntu7.3/git_2.43.0-1ubuntu7.3.dsc",
+          "sha256": "1e3e5b83bf41318cc957a9e471ed82f8ca4d6befe91b008699959072c97430f4",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.43.0-1ubuntu7.3.dsc"
+        },
+        {
+          "filename": "corresponding-source/git/2.43.0-1ubuntu7.3/git_2.43.0.orig.tar.xz",
+          "sha256": "5446603e73d911781d259e565750dcd277a42836c8e392cac91cf137aa9b76ec",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.43.0.orig.tar.xz"
+        },
+        {
+          "filename": "corresponding-source/git/2.43.0-1ubuntu7.3/git_2.43.0-1ubuntu7.3.debian.tar.xz",
+          "sha256": "5bb363b59fda93816ec9ef34476e720b4f66f4b9947866bfaf414964be7dd4a7",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/git/git_2.43.0-1ubuntu7.3.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/htop_3.3.0-4build1_amd64.deb": {
+      "source": "htop",
+      "version": "3.3.0-4build1",
+      "files": [
+        {
+          "filename": "corresponding-source/htop/3.3.0-4build1/htop_3.3.0-4build1.dsc",
+          "sha256": "c901fba5c24f5b80d154636b28d6dcdda58e299fc2d1f8cafc75d56f5e5e92f7",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/h/htop/htop_3.3.0-4build1.dsc"
+        },
+        {
+          "filename": "corresponding-source/htop/3.3.0-4build1/htop_3.3.0.orig.tar.gz",
+          "sha256": "1e5cc328eee2bd1acff89f860e3179ea24b85df3ac483433f92a29977b14b045",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/h/htop/htop_3.3.0.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/htop/3.3.0-4build1/htop_3.3.0-4build1.debian.tar.xz",
+          "sha256": "853d85069354c6300d05388b27b5865174d3a2e8ceefa1596302a76b4d942d6e",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/h/htop/htop_3.3.0-4build1.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/rsync_3.2.7-1ubuntu1.5_amd64.deb": {
+      "source": "rsync",
+      "version": "3.2.7-1ubuntu1.5",
+      "files": [
+        {
+          "filename": "corresponding-source/rsync/3.2.7-1ubuntu1.5/rsync_3.2.7-1ubuntu1.5.dsc",
+          "sha256": "9504678f2a1f0c937245f5ab0fe4342c8f9803746749eecbbc796afd6ea6e0ea",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rsync/rsync_3.2.7-1ubuntu1.5.dsc"
+        },
+        {
+          "filename": "corresponding-source/rsync/3.2.7-1ubuntu1.5/rsync_3.2.7.orig.tar.gz",
+          "sha256": "4e7d9d3f6ed10878c58c5fb724a67dacf4b6aac7340b13e488fb2dc41346f2bb",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rsync/rsync_3.2.7.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/rsync/3.2.7-1ubuntu1.5/rsync_3.2.7.orig.tar.gz.asc",
+          "sha256": "8e054b8e852f371fbcb757de51f1a07de5621ae959ea766d3c3e5439d7b5f4ae",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rsync/rsync_3.2.7.orig.tar.gz.asc"
+        },
+        {
+          "filename": "corresponding-source/rsync/3.2.7-1ubuntu1.5/rsync_3.2.7-1ubuntu1.5.debian.tar.xz",
+          "sha256": "5d0ec28938106d2932255387813a6968d2a7a3e1d72ee88a485f00df7f597d6a",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/r/rsync/rsync_3.2.7-1ubuntu1.5.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/tmux_3.4-1ubuntu0.1_amd64.deb": {
+      "source": "tmux",
+      "version": "3.4-1ubuntu0.1",
+      "files": [
+        {
+          "filename": "corresponding-source/tmux/3.4-1ubuntu0.1/tmux_3.4-1ubuntu0.1.dsc",
+          "sha256": "b5d2e19ef9bffcb58983a8f33a9a53a95caec1e39f234887751cdbacd86430d7",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/t/tmux/tmux_3.4-1ubuntu0.1.dsc"
+        },
+        {
+          "filename": "corresponding-source/tmux/3.4-1ubuntu0.1/tmux_3.4.orig.tar.gz",
+          "sha256": "551ab8dea0bf505c0ad6b7bb35ef567cdde0ccb84357df142c254f35a23e19aa",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/t/tmux/tmux_3.4.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/tmux/3.4-1ubuntu0.1/tmux_3.4-1ubuntu0.1.debian.tar.xz",
+          "sha256": "9ef140b5b58e2a01373808da9b2f715525c8dfbca6bd3e905ed0cdf1f5995ff7",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/t/tmux/tmux_3.4-1ubuntu0.1.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/tmuxp_1.38.0-1ubuntu1_all.deb": {
+      "source": "tmuxp",
+      "version": "1.38.0-1ubuntu1",
+      "files": [
+        {
+          "filename": "corresponding-source/tmuxp/1.38.0-1ubuntu1/tmuxp_1.38.0-1ubuntu1.dsc",
+          "sha256": "43608f95e9892fa033e9811fc35c6caefd30305df0806b464e97d4fd43c6caec",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/universe/t/tmuxp/tmuxp_1.38.0-1ubuntu1.dsc"
+        },
+        {
+          "filename": "corresponding-source/tmuxp/1.38.0-1ubuntu1/tmuxp_1.38.0.orig.tar.xz",
+          "sha256": "e3c355e3c994fc0ce57fbd41afa8a0fb704c15ea8bddd918043b73df1a8a79ba",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/universe/t/tmuxp/tmuxp_1.38.0.orig.tar.xz"
+        },
+        {
+          "filename": "corresponding-source/tmuxp/1.38.0-1ubuntu1/tmuxp_1.38.0-1ubuntu1.debian.tar.xz",
+          "sha256": "f8df0022678b35a313e55b49c9dcb49f46d3fa65e1bb7cfbf3b0376f8dfd6dde",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/universe/t/tmuxp/tmuxp_1.38.0-1ubuntu1.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/vim_9.1.0016-1ubuntu7.20_amd64.deb": {
+      "source": "vim",
+      "version": "2:9.1.0016-1ubuntu7.20",
+      "files": [
+        {
+          "filename": "corresponding-source/vim/9.1.0016-1ubuntu7.20/vim_9.1.0016-1ubuntu7.20.dsc",
+          "sha256": "07817e3316e1e3d205937202b15cb932f879873fe01fb19cd0de8cc5916f7610",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_9.1.0016-1ubuntu7.20.dsc"
+        },
+        {
+          "filename": "corresponding-source/vim/9.1.0016-1ubuntu7.20/vim_9.1.0016.orig.tar.gz",
+          "sha256": "abe876bb18554bb1eb69d23eaabe89caabeef182737e9e8bfa4cc298dee061df",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_9.1.0016.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/vim/9.1.0016-1ubuntu7.20/vim_9.1.0016-1ubuntu7.20.debian.tar.xz",
+          "sha256": "7eaaaa5151fbda83d559c67b50515a161a5a394c0bc9a5fb14d545d4f846320e",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_9.1.0016-1ubuntu7.20.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/vim-runtime_9.1.0016-1ubuntu7.20_all.deb": {
+      "source": "vim",
+      "version": "2:9.1.0016-1ubuntu7.20",
+      "files": [
+        {
+          "filename": "corresponding-source/vim/9.1.0016-1ubuntu7.20/vim_9.1.0016-1ubuntu7.20.dsc",
+          "sha256": "07817e3316e1e3d205937202b15cb932f879873fe01fb19cd0de8cc5916f7610",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_9.1.0016-1ubuntu7.20.dsc"
+        },
+        {
+          "filename": "corresponding-source/vim/9.1.0016-1ubuntu7.20/vim_9.1.0016.orig.tar.gz",
+          "sha256": "abe876bb18554bb1eb69d23eaabe89caabeef182737e9e8bfa4cc298dee061df",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_9.1.0016.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/vim/9.1.0016-1ubuntu7.20/vim_9.1.0016-1ubuntu7.20.debian.tar.xz",
+          "sha256": "7eaaaa5151fbda83d559c67b50515a161a5a394c0bc9a5fb14d545d4f846320e",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/v/vim/vim_9.1.0016-1ubuntu7.20.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/wget_1.21.4-1ubuntu4.5_amd64.deb": {
+      "source": "wget",
+      "version": "1.21.4-1ubuntu4.5",
+      "files": [
+        {
+          "filename": "corresponding-source/wget/1.21.4-1ubuntu4.5/wget_1.21.4-1ubuntu4.5.dsc",
+          "sha256": "0cf2b463b1cebf45eb994cb926490d4e0e4067b87d71f32f6be9902dbadde0ab",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/w/wget/wget_1.21.4-1ubuntu4.5.dsc"
+        },
+        {
+          "filename": "corresponding-source/wget/1.21.4-1ubuntu4.5/wget_1.21.4.orig.tar.gz",
+          "sha256": "81542f5cefb8faacc39bbbc6c82ded80e3e4a88505ae72ea51df27525bcde04c",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/w/wget/wget_1.21.4.orig.tar.gz"
+        },
+        {
+          "filename": "corresponding-source/wget/1.21.4-1ubuntu4.5/wget_1.21.4.orig.tar.gz.asc",
+          "sha256": "fb1ce21577dee962be8bf95cbf86f806815778264622a5d756324ff8dd3bfc57",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/w/wget/wget_1.21.4.orig.tar.gz.asc"
+        },
+        {
+          "filename": "corresponding-source/wget/1.21.4-1ubuntu4.5/wget_1.21.4-1ubuntu4.5.debian.tar.xz",
+          "sha256": "2382d8abe8f53721777752a701e6de90715c4993b4c75e6d69a96cf9296ea411",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/w/wget/wget_1.21.4-1ubuntu4.5.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/zsh_5.9-6ubuntu2_amd64.deb": {
+      "source": "zsh",
+      "version": "5.9-6ubuntu2",
+      "files": [
+        {
+          "filename": "corresponding-source/zsh/5.9-6ubuntu2/zsh_5.9-6ubuntu2.dsc",
+          "sha256": "bc8c36b52015f25051f666be3805ef7a8b3c3104bb12c23b1519fac6abe7203b",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zsh/zsh_5.9-6ubuntu2.dsc"
+        },
+        {
+          "filename": "corresponding-source/zsh/5.9-6ubuntu2/zsh_5.9.orig.tar.xz",
+          "sha256": "9b8d1ecedd5b5e81fbf1918e876752a7dd948e05c1a0dba10ab863842d45acd5",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zsh/zsh_5.9.orig.tar.xz"
+        },
+        {
+          "filename": "corresponding-source/zsh/5.9-6ubuntu2/zsh_5.9-6ubuntu2.debian.tar.xz",
+          "sha256": "6bff5cf506a508e02bcdb0c7300ed528b4c18b90ce8c2c4bd19b4fe49d8bca2d",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zsh/zsh_5.9-6ubuntu2.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "ubuntu24/zsh-common_5.9-6ubuntu2_all.deb": {
+      "source": "zsh",
+      "version": "5.9-6ubuntu2",
+      "files": [
+        {
+          "filename": "corresponding-source/zsh/5.9-6ubuntu2/zsh_5.9-6ubuntu2.dsc",
+          "sha256": "bc8c36b52015f25051f666be3805ef7a8b3c3104bb12c23b1519fac6abe7203b",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zsh/zsh_5.9-6ubuntu2.dsc"
+        },
+        {
+          "filename": "corresponding-source/zsh/5.9-6ubuntu2/zsh_5.9.orig.tar.xz",
+          "sha256": "9b8d1ecedd5b5e81fbf1918e876752a7dd948e05c1a0dba10ab863842d45acd5",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zsh/zsh_5.9.orig.tar.xz"
+        },
+        {
+          "filename": "corresponding-source/zsh/5.9-6ubuntu2/zsh_5.9-6ubuntu2.debian.tar.xz",
+          "sha256": "6bff5cf506a508e02bcdb0c7300ed528b4c18b90ce8c2c4bd19b4fe49d8bca2d",
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zsh/zsh_5.9-6ubuntu2.debian.tar.xz"
+        }
+      ],
+      "status": "collected",
+      "integrity": "Official HTTPS pool; DSC member hashes checked; signer not independently audited"
+    },
+    "upstream/mysql-apt-config_0.8.40-1_all.deb": {
+      "source": "mysql-apt-config",
+      "version": "0.8.40-1",
+      "files": [],
+      "status": "unavailable",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    "portable/btop-1.4.7-x86_64-linux-musl.tar.gz": {
+      "status": "collected",
+      "source": "btop",
+      "version": "v1.4.7",
+      "files": [
+        {
+          "filename": "corresponding-source/btop/btop-1.4.7.tar.gz",
+          "sha256": "933de2e4d1b2211a638be463eb6e8616891bfba73aef5d38060bd8319baeefc6",
+          "url": "https://codeload.github.com/aristocratos/btop/tar.gz/refs/tags/v1.4.7"
+        }
+      ]
+    }
+  },
+  "notices": [
+    {
+      "resource": "gdu",
+      "filename": "provenance/licenses/gdu-LICENSE.md",
+      "sha256": "613e9144d1403bba9553d64daf6a5e28d4c6bd9fabed81da80efaf91eb573dad",
+      "url": "https://raw.githubusercontent.com/dundee/gdu/v5.37.0/LICENSE.md"
+    },
+    {
+      "resource": "uv",
+      "filename": "provenance/licenses/uv-LICENSE-MIT",
+      "sha256": "860e3d7a86b84e6a7012c7a635fc64df475cebc6cce34dfeb73a5982ec58176c",
+      "url": "https://raw.githubusercontent.com/astral-sh/uv/0.12.22/LICENSE-MIT"
+    },
+    {
+      "resource": "uv",
+      "filename": "provenance/licenses/uv-LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "url": "https://raw.githubusercontent.com/astral-sh/uv/0.12.22/LICENSE-APACHE"
+    }
+  ]
+}

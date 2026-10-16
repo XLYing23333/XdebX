@@ -1,0 +1,838 @@
+{
+  "schema_version": 1,
+  "small_asset_limit": 5242880,
+  "before_bytes": 480243210,
+  "after_bytes": 46414023,
+  "assets": [
+    {
+      "filename": "ubuntu20/chafa_1.2.1-1_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/curl_7.68.0-1ubuntu2.25_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/gedit_3.36.2-0ubuntu1_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/git_2.25.1-1ubuntu3.14_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/git-man_2.25.1-1ubuntu3.14_all.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/htop_2.2.0-2build1_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/rsync_3.1.3-8ubuntu0.9_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/tmux_3.0a-2ubuntu0.4_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/tmuxp_1.5.4-1_all.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/vim_8.1.2269-1ubuntu5.32_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Matching redistribution source exceeds small-cache limit",
+      "size_bytes": 1240544,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/vim-runtime_8.1.2269-1ubuntu5.32_all.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 5875952,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/wget_1.20.3-1ubuntu2.1_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/zsh_5.8-3ubuntu1.1_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu20/zsh-common_5.8-3ubuntu1.1_all.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 0,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/chafa_1.14.0-1.1build1_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 73084,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/curl_8.5.0-2ubuntu10.15_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 226504,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/gedit_46.2-2_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 356094,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/git_2.43.0-1ubuntu7.3_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Matching redistribution source exceeds small-cache limit",
+      "size_bytes": 3679758,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/git-man_2.43.0-1ubuntu7.3_all.deb",
+      "bundle": "on-demand",
+      "reason": "Matching redistribution source exceeds small-cache limit",
+      "size_bytes": 1100178,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/htop_3.3.0-4build1_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 170528,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/rsync_3.2.7-1ubuntu1.5_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 442954,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/tmux_3.4-1ubuntu0.1_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 479838,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/tmuxp_1.38.0-1ubuntu1_all.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 2248,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/vim_9.1.0016-1ubuntu7.20_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Matching redistribution source exceeds small-cache limit",
+      "size_bytes": 1884208,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/vim-runtime_9.1.0016-1ubuntu7.20_all.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 7273294,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/wget_1.21.4-1ubuntu4.5_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 334118,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/zsh_5.9-6ubuntu2_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 812452,
+      "downloadable": true
+    },
+    {
+      "filename": "ubuntu24/zsh-common_5.9-6ubuntu2_all.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 4172674,
+      "downloadable": true
+    },
+    {
+      "filename": "upstream/fastfetch-2.69.0-linux-amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 7192316,
+      "downloadable": true
+    },
+    {
+      "filename": "upstream/fastfetch-2.69.0-linux-amd64-polyfilled.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 1741468,
+      "downloadable": true
+    },
+    {
+      "filename": "portable/fastfetch-2.69.0-musl-amd64.tar.gz",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 6731022,
+      "downloadable": true
+    },
+    {
+      "filename": "portable/btop-1.4.7-x86_64-linux-musl.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 1047005,
+      "downloadable": true
+    },
+    {
+      "filename": "portable/gdu-5.37.0-linux-amd64-static.tgz",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 8537697,
+      "downloadable": true
+    },
+    {
+      "filename": "upstream/lsd_1.2.0_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 1385024,
+      "downloadable": true
+    },
+    {
+      "filename": "upstream/lsd-musl_1.2.0_amd64.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 1414052,
+      "downloadable": true
+    },
+    {
+      "filename": "portable/uv-0.12.22-x86_64-linux-musl.tar.gz",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 22808239,
+      "downloadable": true
+    },
+    {
+      "filename": "scripts/uv-0.12.22-installer.sh",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 71308,
+      "downloadable": true
+    },
+    {
+      "filename": "fonts/MapleMono-NF-v7.9.zip",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 21151049,
+      "downloadable": true
+    },
+    {
+      "filename": "sources/chafa-1.18.3.tar.xz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 1070576,
+      "downloadable": true
+    },
+    {
+      "filename": "sources/tmux-3.7c.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 789431,
+      "downloadable": true
+    },
+    {
+      "filename": "ghostty/ghostty_1.3.1-0.ppa2_amd64_24.04.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 18488130,
+      "downloadable": true
+    },
+    {
+      "filename": "ghostty/ghostty_1.3.1-0.ppa2_amd64_trixie.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 17971296,
+      "downloadable": true
+    },
+    {
+      "filename": "ghostty/ghostty_1.1.3-0.ppa2_amd64_22.04.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 15635966,
+      "downloadable": true
+    },
+    {
+      "filename": "ghostty/ghostty_1.1.3-0.ppa2_amd64_bookworm.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 15218452,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/Yggdroot--indentLine-b96a75985736.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 11368,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/dreamsofcode-io--catppuccin-tmux-b4e0715356f8.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 548402,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/jiangmiao--auto-pairs-39f06b873a84.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 10518,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/joshdick--onedark.vim-47bec7a6196a.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 383893,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/junegunn--vim-plug-88e31471818e.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 97765,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/plug.vim",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 85944,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/ohmyzsh--ohmyzsh-4d4cfc287e9d.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 3499456,
+      "downloadable": true
+    },
+    {
+      "filename": "scripts/ohmyzsh-4d4cfc287e9d-install.sh",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 20398,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/scrooloose--nerdtree-690d061b5915.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 166173,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/sheerun--vim-polyglot-f061eddb7cdc.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 2221076,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/tmux-plugins--tmux-sensible-25cb91f42d02.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 4501,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/tmux-plugins--tpm-e261deb1b476.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 15547,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/tpope--vim-commentary-64a654ef4a20.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 3312,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/tpope--vim-fugitive-3b753cf8c6a4.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 87946,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/vim-airline--vim-airline-ae24f4aca067.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 123263,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/vim-airline--vim-airline-themes-77aab8c6cf71.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 83939,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/zsh-users--zsh-autosuggestions-85919cd1ffa7.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 29979,
+      "downloadable": true
+    },
+    {
+      "filename": "plugins/zsh-users--zsh-syntax-highlighting-0bfcb582e71d.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 156433,
+      "downloadable": true
+    },
+    {
+      "filename": "scripts/nvm-v0.40.8-install.sh",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 17883,
+      "downloadable": true
+    },
+    {
+      "filename": "sources/nvm-v0.40.8.tar.gz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 410527,
+      "downloadable": true
+    },
+    {
+      "filename": "portable/node-v22.23.3-linux-x64.tar.xz",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 31001304,
+      "downloadable": true
+    },
+    {
+      "filename": "portable/node-v22.23.3-SHASUMS256.txt",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 3981,
+      "downloadable": true
+    },
+    {
+      "filename": "python/tmuxp-1.74.0-py3-none-any.whl",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 108950,
+      "downloadable": true
+    },
+    {
+      "filename": "scripts/docker-install-2026-10-03.sh",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 23731,
+      "downloadable": true
+    },
+    {
+      "filename": "scripts/claude-code-install-2026-10-03.sh",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 9704,
+      "downloadable": true
+    },
+    {
+      "filename": "scripts/opencode-install-2026-10-03.sh",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 13690,
+      "downloadable": true
+    },
+    {
+      "filename": "scripts/openclaw-install-2026-10-03.sh",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 149180,
+      "downloadable": true
+    },
+    {
+      "filename": "scripts/install-tl-unx-2026-10-03.tar.gz",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 5272247,
+      "downloadable": true
+    },
+    {
+      "filename": "desktop/Snipaste-2.11.3-x86_64.AppImage",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 37450944,
+      "downloadable": true
+    },
+    {
+      "filename": "ctypora_0.11.12_amd64.deb",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 76411692,
+      "downloadable": false
+    },
+    {
+      "filename": "upstream/mysql-apt-config_0.8.40-1_all.deb",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 18416,
+      "downloadable": true
+    },
+    {
+      "filename": "scripts/clashtx-c7a1b878aac2-install.sh",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 3139,
+      "downloadable": true
+    },
+    {
+      "filename": "portable/node-v24.21.0-linux-x64.tar.xz",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 31890184,
+      "downloadable": true
+    },
+    {
+      "filename": "portable/node-v24.21.0-SHASUMS256.txt",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 3171,
+      "downloadable": true
+    },
+    {
+      "filename": "npm/claude-code-2.1.288.tgz",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 28470,
+      "downloadable": true
+    },
+    {
+      "filename": "npm/opencode-ai-1.18.34.tgz",
+      "bundle": "local",
+      "reason": "Small active asset",
+      "size_bytes": 3047,
+      "downloadable": true
+    },
+    {
+      "filename": "sources/vim-v9.2.0000.tar.gz",
+      "bundle": "on-demand",
+      "reason": "Large, retired, unused or unverified asset",
+      "size_bytes": 19579128,
+      "downloadable": true
+    }
+  ],
+  "removed": [
+    {
+      "filename": "corresponding-source/chafa/1.2.1-1/chafa_1.2.1-1.debian.tar.xz",
+      "size_bytes": 3884
+    },
+    {
+      "filename": "corresponding-source/chafa/1.2.1-1/chafa_1.2.1-1.dsc",
+      "size_bytes": 2004
+    },
+    {
+      "filename": "corresponding-source/chafa/1.2.1-1/chafa_1.2.1.orig.tar.gz",
+      "size_bytes": 1174167
+    },
+    {
+      "filename": "corresponding-source/curl/7.68.0-1ubuntu2.25/curl_7.68.0-1ubuntu2.25.debian.tar.xz",
+      "size_bytes": 77412
+    },
+    {
+      "filename": "corresponding-source/curl/7.68.0-1ubuntu2.25/curl_7.68.0-1ubuntu2.25.dsc",
+      "size_bytes": 2737
+    },
+    {
+      "filename": "corresponding-source/curl/7.68.0-1ubuntu2.25/curl_7.68.0.orig.tar.gz",
+      "size_bytes": 4096350
+    },
+    {
+      "filename": "corresponding-source/gedit/3.36.2-0ubuntu1/gedit_3.36.2-0ubuntu1.debian.tar.xz",
+      "size_bytes": 18332
+    },
+    {
+      "filename": "corresponding-source/gedit/3.36.2-0ubuntu1/gedit_3.36.2-0ubuntu1.dsc",
+      "size_bytes": 2058
+    },
+    {
+      "filename": "corresponding-source/gedit/3.36.2-0ubuntu1/gedit_3.36.2.orig.tar.xz",
+      "size_bytes": 14770004
+    },
+    {
+      "filename": "corresponding-source/git/2.25.1-1ubuntu3.14/git_2.25.1-1ubuntu3.14.debian.tar.xz",
+      "size_bytes": 719124
+    },
+    {
+      "filename": "corresponding-source/git/2.25.1-1ubuntu3.14/git_2.25.1-1ubuntu3.14.dsc",
+      "size_bytes": 2966
+    },
+    {
+      "filename": "corresponding-source/git/2.25.1-1ubuntu3.14/git_2.25.1.orig.tar.xz",
+      "size_bytes": 5875548
+    },
+    {
+      "filename": "corresponding-source/git/2.43.0-1ubuntu7.3/git_2.43.0-1ubuntu7.3.debian.tar.xz",
+      "size_bytes": 795448
+    },
+    {
+      "filename": "corresponding-source/git/2.43.0-1ubuntu7.3/git_2.43.0-1ubuntu7.3.dsc",
+      "size_bytes": 2972
+    },
+    {
+      "filename": "corresponding-source/git/2.43.0-1ubuntu7.3/git_2.43.0.orig.tar.xz",
+      "size_bytes": 7382996
+    },
+    {
+      "filename": "corresponding-source/htop/2.2.0-2build1/htop_2.2.0-2build1.debian.tar.xz",
+      "size_bytes": 11044
+    },
+    {
+      "filename": "corresponding-source/htop/2.2.0-2build1/htop_2.2.0-2build1.dsc",
+      "size_bytes": 2262
+    },
+    {
+      "filename": "corresponding-source/htop/2.2.0-2build1/htop_2.2.0.orig.tar.gz",
+      "size_bytes": 291651
+    },
+    {
+      "filename": "corresponding-source/htop/2.2.0-2build1/htop_2.2.0.orig.tar.gz.asc",
+      "size_bytes": 819
+    },
+    {
+      "filename": "corresponding-source/rsync/3.1.3-8ubuntu0.9/rsync_3.1.3-8ubuntu0.9.debian.tar.xz",
+      "size_bytes": 57672
+    },
+    {
+      "filename": "corresponding-source/rsync/3.1.3-8ubuntu0.9/rsync_3.1.3-8ubuntu0.9.dsc",
+      "size_bytes": 2098
+    },
+    {
+      "filename": "corresponding-source/rsync/3.1.3-8ubuntu0.9/rsync_3.1.3.orig.tar.gz",
+      "size_bytes": 905908
+    },
+    {
+      "filename": "corresponding-source/tmux/3.0a-2ubuntu0.4/tmux_3.0a-2ubuntu0.4.debian.tar.xz",
+      "size_bytes": 14988
+    },
+    {
+      "filename": "corresponding-source/tmux/3.0a-2ubuntu0.4/tmux_3.0a-2ubuntu0.4.dsc",
+      "size_bytes": 2031
+    },
+    {
+      "filename": "corresponding-source/tmux/3.0a-2ubuntu0.4/tmux_3.0a.orig.tar.gz",
+      "size_bytes": 546377
+    },
+    {
+      "filename": "corresponding-source/tmuxp/1.5.4-1/tmuxp_1.5.4-1.debian.tar.xz",
+      "size_bytes": 3324
+    },
+    {
+      "filename": "corresponding-source/tmuxp/1.5.4-1/tmuxp_1.5.4-1.dsc",
+      "size_bytes": 1675
+    },
+    {
+      "filename": "corresponding-source/tmuxp/1.5.4-1/tmuxp_1.5.4.orig.tar.xz",
+      "size_bytes": 58776
+    },
+    {
+      "filename": "corresponding-source/vim/8.1.2269-1ubuntu5.32/vim_8.1.2269-1ubuntu5.32.debian.tar.xz",
+      "size_bytes": 269212
+    },
+    {
+      "filename": "corresponding-source/vim/8.1.2269-1ubuntu5.32/vim_8.1.2269-1ubuntu5.32.dsc",
+      "size_bytes": 2948
+    },
+    {
+      "filename": "corresponding-source/vim/8.1.2269-1ubuntu5.32/vim_8.1.2269.orig.tar.gz",
+      "size_bytes": 14590233
+    },
+    {
+      "filename": "corresponding-source/vim/9.1.0016-1ubuntu7.20/vim_9.1.0016-1ubuntu7.20.debian.tar.xz",
+      "size_bytes": 245136
+    },
+    {
+      "filename": "corresponding-source/vim/9.1.0016-1ubuntu7.20/vim_9.1.0016-1ubuntu7.20.dsc",
+      "size_bytes": 3061
+    },
+    {
+      "filename": "corresponding-source/vim/9.1.0016-1ubuntu7.20/vim_9.1.0016.orig.tar.gz",
+      "size_bytes": 17621043
+    },
+    {
+      "filename": "corresponding-source/wget/1.20.3-1ubuntu2.1/wget_1.20.3-1ubuntu2.1.debian.tar.xz",
+      "size_bytes": 65168
+    },
+    {
+      "filename": "corresponding-source/wget/1.20.3-1ubuntu2.1/wget_1.20.3-1ubuntu2.1.dsc",
+      "size_bytes": 2251
+    },
+    {
+      "filename": "corresponding-source/wget/1.20.3-1ubuntu2.1/wget_1.20.3.orig.tar.gz",
+      "size_bytes": 4489249
+    },
+    {
+      "filename": "corresponding-source/wget/1.20.3-1ubuntu2.1/wget_1.20.3.orig.tar.gz.asc",
+      "size_bytes": 833
+    },
+    {
+      "filename": "corresponding-source/zsh/5.8-3ubuntu1.1/zsh_5.8-3ubuntu1.1.debian.tar.xz",
+      "size_bytes": 87348
+    },
+    {
+      "filename": "corresponding-source/zsh/5.8-3ubuntu1.1/zsh_5.8-3ubuntu1.1.dsc",
+      "size_bytes": 2532
+    },
+    {
+      "filename": "corresponding-source/zsh/5.8-3ubuntu1.1/zsh_5.8.orig.tar.xz",
+      "size_bytes": 3193284
+    },
+    {
+      "filename": "corresponding-source/zsh/5.8-3ubuntu1.1/zsh_5.8.orig.tar.xz.asc",
+      "size_bytes": 488
+    },
+    {
+      "filename": "ctypora_0.11.12_amd64.deb",
+      "size_bytes": 76411692
+    },
+    {
+      "filename": "desktop/Snipaste-2.11.3-x86_64.AppImage",
+      "size_bytes": 37450944
+    },
+    {
+      "filename": "fonts/MapleMono-NF-v7.9.zip",
+      "size_bytes": 21151049
+    },
+    {
+      "filename": "ghostty/ghostty_1.1.3-0.ppa2_amd64_22.04.deb",
+      "size_bytes": 15635966
+    },
+    {
+      "filename": "ghostty/ghostty_1.1.3-0.ppa2_amd64_bookworm.deb",
+      "size_bytes": 15218452
+    },
+    {
+      "filename": "ghostty/ghostty_1.3.1-0.ppa2_amd64_24.04.deb",
+      "size_bytes": 18488130
+    },
+    {
+      "filename": "ghostty/ghostty_1.3.1-0.ppa2_amd64_trixie.deb",
+      "size_bytes": 17971296
+    },
+    {
+      "filename": "npm/claude-code-2.1.288.tgz",
+      "size_bytes": 28470
+    },
+    {
+      "filename": "portable/fastfetch-2.69.0-musl-amd64.tar.gz",
+      "size_bytes": 6731022
+    },
+    {
+      "filename": "portable/gdu-5.37.0-linux-amd64-static.tgz",
+      "size_bytes": 8537697
+    },
+    {
+      "filename": "portable/node-v22.23.3-linux-x64.tar.xz",
+      "size_bytes": 31001304
+    },
+    {
+      "filename": "portable/node-v24.21.0-linux-x64.tar.xz",
+      "size_bytes": 31890184
+    },
+    {
+      "filename": "portable/uv-0.12.22-x86_64-linux-musl.tar.gz",
+      "size_bytes": 22808239
+    },
+    {
+      "filename": "scripts/claude-code-install-2026-10-03.sh",
+      "size_bytes": 9704
+    },
+    {
+      "filename": "scripts/install-tl-unx-2026-10-03.tar.gz",
+      "size_bytes": 5272247
+    },
+    {
+      "filename": "sources/vim-v9.2.0000.tar.gz",
+      "size_bytes": 19579128
+    },
+    {
+      "filename": "ubuntu20/vim-runtime_8.1.2269-1ubuntu5.32_all.deb",
+      "size_bytes": 5875952
+    },
+    {
+      "filename": "ubuntu20/vim_8.1.2269-1ubuntu5.32_amd64.deb",
+      "size_bytes": 1240544
+    },
+    {
+      "filename": "ubuntu24/git-man_2.43.0-1ubuntu7.3_all.deb",
+      "size_bytes": 1100178
+    },
+    {
+      "filename": "ubuntu24/git_2.43.0-1ubuntu7.3_amd64.deb",
+      "size_bytes": 3679758
+    },
+    {
+      "filename": "ubuntu24/vim-runtime_9.1.0016-1ubuntu7.20_all.deb",
+      "size_bytes": 7273294
+    },
+    {
+      "filename": "ubuntu24/vim_9.1.0016-1ubuntu7.20_amd64.deb",
+      "size_bytes": 1884208
+    },
+    {
+      "filename": "upstream/fastfetch-2.69.0-linux-amd64.deb",
+      "size_bytes": 7192316
+    }
+  ],
+  "applied": true
+}

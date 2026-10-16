@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "use_case": "stylized-concept",
+  "requested_aspect_ratio": "19:9",
+  "asset": "assets/xdebx-hero.png",
+  "generation_prompt": "Use case: stylized-concept\nAsset type: GitHub repository README hero banner for XdebX, a bilingual Linux terminal system environment setup tool.\nPrimary request: Generate one polished raster hero image in EXACT 19:9 landscape aspect ratio, native canvas 2432 × 1152 pixels. A premium, restrained terminal-inspired identity consistent with this project's existing silver-front, cool blue-side 3D lettering and dark framed TUI.\nScene/backdrop: deep graphite terminal-black background, subtle fine ASCII grid texture and a few delicate terminal-frame lines; generous breathing room. Abstract terminal signal traces and tiny status blocks quietly suggest a two-panel installation console, without pretending to be a real screenshot.\nSubject: the precise word \"XdebX\", centered as the dominant sculptural typography, large and completely legible. Spell exactly uppercase X, lowercase d, lowercase e, lowercase b, uppercase X. Crisp silver front faces, shallow blue beveled sides, believable metal texture. Mostly front-facing with subtle depth, no extreme tilt.\nComposition/framing: wide balanced 19:9 horizontal composition, all important content safely within the central 75% width and 65% height; the logo is the focal point, tasteful thin console borders and unobtrusive pixel-like accents near the periphery.\nLighting/mood: calm, precise, technical; controlled icy blue edge lighting and soft silver highlights, restrained glow.\nText (verbatim): \"XdebX\"\nConstraints: ONLY that one brand word, exact case. No tagline, badges, command text, fake UI labels, Linux distro logos, people, mascots, planets, physical computers, watermark, or stock-photo aesthetic. Clean GitHub open-source project presentation, refined and readable at small sizes. Opaque background. EXACT width:height = 19:9.",
+  "edit_prompt": "Use case: precise-object-edit\nAsset type: XdebX GitHub README hero banner.\nEdit target: the referenced generated image.\nChange ONLY the canvas dimensions to EXACT 1824 pixels wide × 864 pixels high (EXACT 19:9). The current file is 1823 × 863, one pixel short in each dimension. Preserve this same finished design, exact lettering \"XdebX\", silver metal, blue edge lighting, dark background, terminal frame decoration, composition and all visual details. Export an exact 1824 × 864 PNG canvas; do not crop any edge decoration. No new text, no redesign, no watermark. The primary required correction is the exact 19:9 pixel dimensions; use one extra pixel of the same background along the canvas boundary as needed.",
+  "exported_dimensions": {
+    "width": 1823,
+    "height": 863
+  },
+  "aspect_ratio_note": "Native imagegen output is 1823×863. User chose to retain the original and accept the one-pixel deviation from 1824×864 (19:9).",
+  "native_export_preserved": true,
+  "sha256": "f1fd4927ba298f710651676e2a65c2c51a742a95910605df392add18db3f8d94"
+}

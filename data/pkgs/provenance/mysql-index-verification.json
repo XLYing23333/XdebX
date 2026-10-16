@@ -1,0 +1,8 @@
+{
+  "index_url": "https://repo.mysql.com/apt/ubuntu/dists/noble/mysql-apt-config/binary-amd64/Packages.gz",
+  "index_sha256": "4db3ce1c9bc94f214966c31c2a6397b4a2276d9769add87eb187f8ebbee42652",
+  "signature_verified": true,
+  "signing_fingerprint": "BCA43417C3B485DD128EC6D4B7B3B788A8D3785C",
+  "key_source": "https://repo.mysql.com/RPM-GPG-KEY-mysql-2025",
+  "key_trust": "Official HTTPS download; no independent out-of-band fingerprint verification"
+}
