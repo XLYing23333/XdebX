@@ -188,8 +188,6 @@ python3 -m unittest discover -s tests -v
 python3 tools/test_recovery_matrix.py
 ```
 
-The recorded validation includes **101 passing unit tests**, targeted installation/recovery checks on all five systems, and bounded mainland-China URL/Git probes. This does not certify every application on every desktop. See the linked reports for the exact test scope.
-
 Build a local program and cache release into an empty directory:
 
 ```sh
@@ -202,4 +200,4 @@ Contributions are welcome: include the distribution, desktop context and relevan
 
 ## Documentation
 
-[Cache guide](data/pkgs/README.md): small-cache policy and on-demand packages. Detailed acceptance reports and Docker fixtures are maintained locally and excluded from Git.
+[Cache guide](data/pkgs/README.md): small-cache policy and on-demand packages.

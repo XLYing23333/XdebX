@@ -188,8 +188,6 @@ python3 -m unittest discover -s tests -v
 python3 tools/test_recovery_matrix.py
 ```
 
-已记录的验收包括 **101 项通过的单元测试**、五个系统的相关安装与恢复检查，以及中国大陆网络的限量 URL / Git 探测。这不代表所有应用都已在每个桌面环境通过验收；具体范围以对应报告为准。
-
 将本地程序包和缓存发行包构建到空目录：
 
 ```sh
@@ -202,4 +200,4 @@ python3 tools/build_release.py \
 
 ## 文档导航
 
-[缓存说明](data/pkgs/README.md)：小包缓存策略与按需下载。详细验收报告和 Docker 测试材料保留在本地，不随 Git 上传。
+[缓存说明](data/pkgs/README.md)：小包缓存策略与按需下载。
